@@ -8,12 +8,12 @@ export const Welcome = defineComponent({
     return () => (
         <div class={s.wrapper}>
             <header>
-                <img src={bg2} alt="" /><img src={bg1} alt="" />
+                <img src={bg2} alt="" />
+                <img src={bg1} alt="" />
             </header>
-            <div>
+            <main>
                 <RouterView />
-            </div>
-            <footer></footer>
+            </main>
         </div>
         )
     }
