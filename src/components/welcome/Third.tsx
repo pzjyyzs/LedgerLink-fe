@@ -10,15 +10,7 @@ export const Third = defineComponent({
         {{
            title: () => 'Efficiently and conveniently manage your money.',
            subTitle: () => 'Experience seamless integration with top-tier partners.',
-           buttons: () => <> <RouterLink class={s.skip} to="/start">Skip</RouterLink>
-           <div class={s['ellipse-group']}>
-             <div class={s.ellipse}></div>
-             <div class={s.ellipse}></div>
-             <div class={[s.ellipse, s.active]}></div>
-           </div>
-           <RouterLink class={s.next} to="/start">
-             <img src={arrowSvg} alt="" />
-           </RouterLink></>
+           buttons: () => <> </>
         }}
       </WelcomeLayout>
     )
