@@ -1,8 +1,8 @@
 import { defineComponent, Transition, VNode } from 'vue';
 import { RouteLocationNormalizedLoaded, RouterView } from 'vue-router';
 import s from './Welcome.module.scss';
-import bg1 from '../assets/icons/bg1.png';
-import bg2 from '../assets/icons/bg2.png';
+import bg1 from '../assets/pic/bg1.png';
+import bg2 from '../assets/pic/bg2.png';
 export const Welcome = defineComponent({
     setup: (props, context) => {
     type Y = { Component: VNode, route: RouteLocationNormalizedLoaded }
