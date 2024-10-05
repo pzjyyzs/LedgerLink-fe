@@ -13,9 +13,9 @@ export const routes = [
         component: Welcome,
         redirect: '/welcome/1',
         children: [
-            { path: '1', components: { main: First, footer: FirstAction } },
-            { path: '2', components: { main: Second, footer: SecondAction } },
-            { path: '3', components: { main: Third, footer: ThirdAction } },
+            { path: '1', name: 'Welcome1', components: { main: First, footer: FirstAction } },
+            { path: '2', name: 'Welcome2', components: { main: Second, footer: SecondAction } },
+            { path: '3', name: 'Welcome3', components: { main: Third, footer: ThirdAction } },
         ]
     }
 ]
